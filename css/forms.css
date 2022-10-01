@@ -1,0 +1,52 @@
+#gtco-form {
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: "OpenSans-Regular";
+}
+#gtco-form {
+  padding-bottom: 20px;
+}
+#gtco-form h4 {
+  font-family: "Lato-Medium";
+  font-size: 24px;
+  color: #1d3ede;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#gtco-form input, #gtco-form textarea {
+  background-color: white;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 50px;
+  max-width: 1000px;
+  width: 350%;
+  height: 60px;
+  border: none;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  color: #000;
+}
+#gtco-form input::-webkit-input-placeholder, #gtco-form input::-moz-placeholder, #gtco-form input:-ms-input-placeholder, #gtco-form input:-moz-placeholder, #gtco-form textarea::-webkit-input-placeholder, #gtco-form textarea::-moz-placeholder, #gtco-form textarea:-ms-input-placeholder, #gtco-form textarea:-moz-placeholder {
+  color: #999999;
+  font-family: "OpenSans-Regular";
+  font-size: 18px;
+}
+#gtco-form .col-12 {
+  margin-top: 90px;
+  margin-right: 150px;
+}
+#gtco-form .col-12 p {
+  font-family: "Lato-Regular";
+  font-size: 18px;
+  color: #999999;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  #gtco-form .col-12 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 991px) {
+  #gtco-form .col-lg-6 {
+    margin-bottom: 80px;
+  }
+}
